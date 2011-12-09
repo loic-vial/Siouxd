@@ -1,0 +1,28 @@
+1) lancement de l'application : 
+./server 
+./client <directory a lister> <nom du server>
+
+example de ligne de commande: ./client ../.. localhost
+
+
+2) visualisation des process de map  ou des processus server :
+
+ps -x |grep map
+ps -x | grep server  
+
+3) Visualisatioon des connexions TCP : 
+
+lsof | grep TCP 
+
+Liste toutes les connexions TCP ouvertes ainsi que leur état 
+On voit également s'afficher le numéro de port sur lequel le process est en écoute (ici c'est le port 4728)
+exemple d'affichage 
+server    9656        map    3u     IPv4              37644      0t0      TCP *:4728 (LISTEN)
+
+
+
+
+
+
+
+

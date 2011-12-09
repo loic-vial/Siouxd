@@ -1,0 +1,33 @@
+1) lancement de l'application : 
+./siouxd
+ coté client ca sera un client internet explorer de son choix. 
+
+2) 
+Test de l'application siouxd: 
+il faut que le client et le serveur soit dasn le même réseau . Ainsi si vous développez sous linserv1, pour lancer l'explorer, vous utiliserez NXClient sous windows (dans programmes/reseau). C'est émulateur X sous windows vous permettra de lancer une fenetre X et ainsi de lancer un exporer internet. 
+
+la ligne de commande sera : 
+http://linserv1:4567   
+(si vous avez installé le service siouxd sous linserv1 et que le port d'écoute est 4567 (valeur décimale)
+
+2) visualisation des process de map  ou des processus siouxd :
+
+ps -x |grep map
+ps -x | grep siouxd  
+
+3) Visualisatioon des connexions TCP : 
+
+lsof | grep TCP 
+
+Liste toutes les connexions TCP ouvertes ainsi que leur état 
+On voit également s'afficher le numéro de port sur lequel le process est en écoute (ici c'est le port 4567)
+exemple d'affichage 
+server    9656        map    3u     IPv4              37644      0t0      TCP *:4567 (LISTEN)
+
+
+
+
+
+
+
+

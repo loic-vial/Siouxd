@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1323444689 source:/home/coyl/projetASR5/Siouxd/function.c
+	"function.h"
+
+1257868330 /home/coyl/projetASR5/Siouxd/function.h
+	<stdio.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<string.h>
+	<sys/time.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<signal.h>
+
+1257847620 source:/home/coyl/projetASR5/Siouxd/readdir.c
+	<stdio.h>
+	<sys/types.h>
+	<dirent.h>
+
+1323444387 source:/home/coyl/projetASR5/Siouxd/siouxd.c
+	"function.h"
+
