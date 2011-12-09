@@ -22,3 +22,33 @@
 1323444387 source:/home/coyl/projetASR5/Siouxd/siouxd.c
 	"function.h"
 
+1323459731 source:/home/coyl/siouxd/Siouxd/function.c
+	"function.h"
+
+1323459731 /home/coyl/siouxd/Siouxd/function.h
+	<stdio.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<string.h>
+	<sys/time.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<signal.h>
+
+1323459731 source:/home/coyl/siouxd/Siouxd/readdir.c
+	<stdio.h>
+	<sys/types.h>
+	<dirent.h>
+
+1323460782 source:/home/coyl/siouxd/Siouxd/siouxd.c
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+	"function.h"
+
