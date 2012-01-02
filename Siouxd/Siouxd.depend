@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1323444689 source:/home/coyl/projetASR5/Siouxd/function.c
+1325524961 source:/home/coyl/siouxd/Siouxd/function.c
+	<pthread.h>
 	"function.h"
 
-1257868330 /home/coyl/projetASR5/Siouxd/function.h
+1325523445 /home/coyl/siouxd/Siouxd/function.h
 	<stdio.h>
 	<stdlib.h>
 	<sys/types.h>
@@ -14,35 +15,7 @@
 	<unistd.h>
 	<signal.h>
 
-1257847620 source:/home/coyl/projetASR5/Siouxd/readdir.c
-	<stdio.h>
-	<sys/types.h>
-	<dirent.h>
-
-1323444387 source:/home/coyl/projetASR5/Siouxd/siouxd.c
-	"function.h"
-
-1323459731 source:/home/coyl/siouxd/Siouxd/function.c
-	"function.h"
-
-1323459731 /home/coyl/siouxd/Siouxd/function.h
-	<stdio.h>
-	<stdlib.h>
-	<sys/types.h>
-	<sys/stat.h>
-	<fcntl.h>
-	<string.h>
-	<sys/time.h>
-	<arpa/inet.h>
-	<unistd.h>
-	<signal.h>
-
-1323459731 source:/home/coyl/siouxd/Siouxd/readdir.c
-	<stdio.h>
-	<sys/types.h>
-	<dirent.h>
-
-1323460782 source:/home/coyl/siouxd/Siouxd/siouxd.c
+1325524734 source:/home/coyl/siouxd/Siouxd/siouxd.c
 	<sys/types.h>
 	<sys/socket.h>
 	<netinet/in.h>
@@ -50,5 +23,6 @@
 	<unistd.h>
 	<stdio.h>
 	<stdlib.h>
+	<pthread.h>
 	"function.h"
 
