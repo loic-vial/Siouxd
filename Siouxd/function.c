@@ -7,10 +7,12 @@ void* GPS_refresh(void* void_config)
     config_list* config = (config_list*)void_config;
 
     /// --- recupere le chemin absolu du programme
+    ///?/ ne pas prendre "web_root_dir" (au cas ou on veut un programme accessible globalement)
     char full_path_prog[256] = {0};
-    strcat(full_path_prog, config->web_root_dir);
-    strcat(full_path_prog, "/");
-    strcat(full_path_prog, config->gps_software);
+    sprintf(full_path_prog, "%s/%s", config->web_root_dir, config->gps_software);
+    //strcat(full_path_prog, config->web_root_dir);
+    //strcat(full_path_prog, "/");
+    //strcat(full_path_prog, config->gps_software);
 
     /// --- lance le programme en boucle
     printf("Lancement du programme : %s\n", full_path_prog);
@@ -31,6 +33,9 @@ int read_configFile(const char* nom_fichier, config_list* config)
         return -1;
 
     /// --- lecture du fichier de configuration
+    ///?/ Controle des configurations!
+    ///   controle ip adresse sur 16 bits => sinon return -1
+    ///   controle web_root_dir, faut pas de slash en fin, sinon on l'enleve
     fscanf(fichier,
            "ip_address %s port %d web_root_dir %s log_file %s gps_software %s frequency %d",
            config->ip_address,
