@@ -1,12 +1,11 @@
+all : siouxd siouxd_gps
 
+siouxd : siouxd.o function.o
+	gcc -lpthread -o siouxd siouxd.c function.c
 
+siouxd_gps : siouxd_gps.o
+	gcc -o siouxd_gps siouxd_gps.c
 
-
-all 	: siouxd
-
-siouxd	:	siouxd.o function.o
-	gcc -lnsl  -o siouxd siouxd.c function.c
-
-clean	: 
+clean : 
 	rm *.o
 

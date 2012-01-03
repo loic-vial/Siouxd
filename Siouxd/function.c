@@ -6,19 +6,12 @@ void* GPS_refresh(void* void_config)
     /// --- recupere la configuration serveur
     config_list* config = (config_list*)void_config;
 
-    /// --- recupere le chemin absolu du programme
-    ///?/ ne pas prendre "web_root_dir" (au cas ou on veut un programme accessible globalement)
-    char full_path_prog[256] = {0};
-    sprintf(full_path_prog, "%s/%s", config->web_root_dir, config->gps_software);
-    //strcat(full_path_prog, config->web_root_dir);
-    //strcat(full_path_prog, "/");
-    //strcat(full_path_prog, config->gps_software);
-
     /// --- lance le programme en boucle
-    printf("Lancement du programme : %s\n", full_path_prog);
     while (1)
     {
-        system(full_path_prog);
+        printf("Lancement du programme GPS : %s\n", config->gps_software);
+        if (system(config->gps_software) != 0)
+	    printf("Erreur lors de l'execution du programme GPS\n");
         sleep(config->frequency);
     }
 }
