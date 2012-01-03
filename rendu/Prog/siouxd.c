@@ -20,7 +20,7 @@ typedef struct sockaddr_in sockaddr_in;
 int stop = 0;
 
 /**
- * fonction a appeller lors d'un signal SIGTERM ou SIGINT du systeme d'exploitation
+ * fonction a appeler lors d'un signal SIGTERM ou SIGINT du systeme d'exploitation
  * pour fermer le serveur proprement
  */
 void fermer(int param);
@@ -113,7 +113,7 @@ int main(int argc, char** argv)
     pthread_cancel(thread_gps);
 
     /// --- ferme la socket serveur
-	close(serv_sock);
+    close(serv_sock);
 
     write_log(&config, "arret du serveur");
 

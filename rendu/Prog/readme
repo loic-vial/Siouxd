@@ -1,3 +1,13 @@
+********************************************************************************
+*                             SIOUXD                                           *
+********************************************************************************
+
+point faible :
+ - lors de l'interruption du serveur (SIGTERM ou SIGINT), il faut attendre une derniere connexion pour que le serveur se ferme
+
+
+
+
 1) lancement de l'application : 
 ./siouxd
  coté client ca sera un client internet explorer de son choix. 
