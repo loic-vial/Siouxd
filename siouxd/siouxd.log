@@ -1,388 +1,1155 @@
-Tue Jan  3 16:56:40 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6667
-Tue Jan  3 17:30:16 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6667
-Tue Jan  3 17:30:24 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 47811
-Tue Jan  3 17:32:34 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6667
-Tue Jan  3 17:32:40 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 47820
-Tue Jan  3 17:33:51 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6665
-Tue Jan  3 17:33:55 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 45124
-Tue Jan  3 17:35:10 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6665
-Tue Jan  3 17:35:12 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 45131
-Tue Jan  3 17:35:33 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6667
-Tue Jan  3 17:35:37 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 47831
-Tue Jan  3 17:36:15 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6664
-Tue Jan  3 17:36:18 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37036
-Tue Jan  3 17:36:18 2012 : demande du fichier /position.html
-Tue Jan  3 17:36:18 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:36:18 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37037
-Tue Jan  3 17:36:18 2012 : demande du fichier /favicon.ico
-Tue Jan  3 17:36:18 2012 : requete invalide de la part du client
-Tue Jan  3 17:36:18 2012 : requete "GET /favicon.ico" de la part du client
-Tue Jan  3 17:36:21 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37038
-Tue Jan  3 17:36:21 2012 : demande du fichier /position.html
-Tue Jan  3 17:36:21 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:36:21 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37039
-Tue Jan  3 17:36:21 2012 : demande du fichier /favicon.ico
-Tue Jan  3 17:36:21 2012 : requete invalide de la part du client
-Tue Jan  3 17:36:21 2012 : requete "GET /favicon.ico" de la part du client
-Tue Jan  3 17:36:21 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37040
-Tue Jan  3 17:36:21 2012 : demande du fichier /favicon.ico
-Tue Jan  3 17:36:21 2012 : requete invalide de la part du client
-Tue Jan  3 17:36:21 2012 : requete "GET /favicon.ico" de la part du client
-Tue Jan  3 17:36:21 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37041
-Tue Jan  3 17:36:21 2012 : demande du fichier /favicon.ico
-Tue Jan  3 17:36:21 2012 : requete invalide de la part du client
-Tue Jan  3 17:36:21 2012 : requete "GET /favicon.ico" de la part du client
-Tue Jan  3 17:45:20 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6664
-Tue Jan  3 17:45:30 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37068
-Tue Jan  3 17:45:30 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:45:31 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37069
-Tue Jan  3 17:45:31 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:45:31 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37070
-Tue Jan  3 17:45:31 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:45:32 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37071
-Tue Jan  3 17:45:32 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:45:32 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37072
-Tue Jan  3 17:45:32 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:45:32 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37073
-Tue Jan  3 17:45:32 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:45:32 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37074
-Tue Jan  3 17:45:32 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:45:34 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37075
-Tue Jan  3 17:45:34 2012 : requete "GET /" de la part du client
-Tue Jan  3 17:45:35 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37076
-Tue Jan  3 17:45:35 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:45:37 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37077
-Tue Jan  3 17:45:37 2012 : requete "GET /position.htmhj*" de la part du client
-Tue Jan  3 17:45:37 2012 : fichier non trouvé
-Tue Jan  3 17:47:39 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6664
-Tue Jan  3 17:47:43 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37082
-Tue Jan  3 17:47:43 2012 : requete "GET /position.htmhj*" de la part du client
-Tue Jan  3 17:47:43 2012 : fichier non trouvé
-Tue Jan  3 17:47:47 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37083
-Tue Jan  3 17:47:47 2012 : requete "GET /" de la part du client
-Tue Jan  3 17:47:49 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37084
-Tue Jan  3 17:47:49 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:47:50 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37085
-Tue Jan  3 17:47:50 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:47:51 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37086
-Tue Jan  3 17:47:51 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:47:51 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37087
-Tue Jan  3 17:47:51 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:47:51 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37088
-Tue Jan  3 17:47:51 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:47:51 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37089
-Tue Jan  3 17:47:51 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:47:52 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37090
-Tue Jan  3 17:47:52 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:47:52 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37091
-Tue Jan  3 17:47:52 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:47:52 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37092
-Tue Jan  3 17:47:52 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:47:52 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37093
-Tue Jan  3 17:47:52 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:47:53 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37094
-Tue Jan  3 17:47:53 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:47:53 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37095
-Tue Jan  3 17:47:53 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:47:54 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37096
-Tue Jan  3 17:47:54 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 17:47:54 2012 : connexion d'un client depuis l'adresse 127.0.0.1 avec le port 37097
-Tue Jan  3 17:47:54 2012 : requete "GET /position.html" de la part du client
-Tue Jan  3 18:17:00 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6664
-Tue Jan  3 18:17:06 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37239
-Tue Jan  3 18:17:06 2012 : requete "GET /position.html" de la part du client a la socket 4
-Tue Jan  3 18:17:06 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37240
-Tue Jan  3 18:17:06 2012 : requete "GET /position.html" de la part du client a la socket 5
-Tue Jan  3 18:17:07 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37241
-Tue Jan  3 18:17:07 2012 : requete "GET /position.html" de la part du client a la socket 4
-Tue Jan  3 18:17:07 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37242
-Tue Jan  3 18:17:07 2012 : requete "GET /position.html" de la part du client a la socket 5
-Tue Jan  3 18:17:07 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37243
-Tue Jan  3 18:17:07 2012 : requete "GET /position.html" de la part du client a la socket 4
-Tue Jan  3 18:17:07 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37244
-Tue Jan  3 18:17:07 2012 : requete "GET /position.html" de la part du client a la socket 5
-Tue Jan  3 18:17:07 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37245
-Tue Jan  3 18:17:07 2012 : requete "GET /position.html" de la part du client a la socket 4
-Tue Jan  3 18:17:07 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37246
-Tue Jan  3 18:17:07 2012 : requete "GET /position.html" de la part du client a la socket 5
-Tue Jan  3 18:17:07 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37247
-Tue Jan  3 18:17:07 2012 : requete "GET /position.html" de la part du client a la socket 4
-Tue Jan  3 18:17:08 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37248
-Tue Jan  3 18:17:08 2012 : requete "GET /position.html" de la part du client a la socket 5
-Tue Jan  3 18:17:08 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37249
-Tue Jan  3 18:17:08 2012 : requete "GET /position.html" de la part du client a la socket 4
-Tue Jan  3 18:17:08 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37250
-Tue Jan  3 18:17:08 2012 : requete "GET /position.html" de la part du client a la socket 5
-Tue Jan  3 18:17:08 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37251
-Tue Jan  3 18:17:08 2012 : requete "GET /position.html" de la part du client a la socket 4
-Tue Jan  3 18:17:08 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37252
-Tue Jan  3 18:17:08 2012 : requete "GET /position.html" de la part du client a la socket 5
-Tue Jan  3 18:17:08 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37253
-Tue Jan  3 18:17:08 2012 : requete "GET /position.html" de la part du client a la socket 4
-Tue Jan  3 18:17:08 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37254
-Tue Jan  3 18:17:08 2012 : requete "GET /position.html" de la part du client a la socket 5
-Tue Jan  3 18:17:08 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37255
-Tue Jan  3 18:17:08 2012 : requete "GET /position.html" de la part du client a la socket 4
-Tue Jan  3 18:17:08 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37258
-Tue Jan  3 18:17:08 2012 : requete "GET /position.html" de la part du client a la socket 5
-Tue Jan  3 18:17:08 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37259
-Tue Jan  3 18:17:08 2012 : requete "GET /position.html" de la part du client a la socket 4
-Tue Jan  3 18:17:08 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37260
-Tue Jan  3 18:17:08 2012 : requete "GET /position.html" de la part du client a la socket 5
-Tue Jan  3 18:17:08 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37261
-Tue Jan  3 18:17:08 2012 : requete "GET /position.html" de la part du client a la socket 4
-Tue Jan  3 18:17:08 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37262
-Tue Jan  3 18:17:08 2012 : requete "GET /position.html" de la part du client a la socket 5
-Tue Jan  3 18:17:08 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37263
-Tue Jan  3 18:17:08 2012 : requete "GET /position.html" de la part du client a la socket 4
-Tue Jan  3 18:17:09 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37264
-Tue Jan  3 18:17:09 2012 : requete "GET /position.html" de la part du client a la socket 4
-Tue Jan  3 18:17:09 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37265
-Tue Jan  3 18:17:09 2012 : requete "GET /position.html" de la part du client a la socket 5
-Tue Jan  3 18:17:10 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37266
-Tue Jan  3 18:17:10 2012 : requete "GET /position.html" de la part du client a la socket 4
-Tue Jan  3 18:17:10 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37267
-Tue Jan  3 18:17:10 2012 : requete "GET /position.html" de la part du client a la socket 5
-Tue Jan  3 18:17:10 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37268
-Tue Jan  3 18:17:10 2012 : requete "GET /position.html" de la part du client a la socket 4
-Tue Jan  3 18:17:10 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37269
-Tue Jan  3 18:17:10 2012 : requete "GET /position.html" de la part du client a la socket 5
-Tue Jan  3 18:17:11 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37270
-Tue Jan  3 18:17:11 2012 : requete "GET /position.html" de la part du client a la socket 4
-Tue Jan  3 18:17:11 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37271
-Tue Jan  3 18:17:11 2012 : requete "GET /position.html" de la part du client a la socket 5
-Tue Jan  3 18:17:17 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37272
-Tue Jan  3 18:17:17 2012 : requete "GET /posi" de la part du client a la socket 4
-Tue Jan  3 18:17:17 2012 : fichier non trouvé
-Tue Jan  3 18:17:18 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37273
-Tue Jan  3 18:17:18 2012 : requete "GET /po" de la part du client a la socket 4
-Tue Jan  3 18:17:18 2012 : fichier non trouvé
-Tue Jan  3 18:17:19 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37274
-Tue Jan  3 18:17:19 2012 : requete "GET /po" de la part du client a la socket 5
-Tue Jan  3 18:17:19 2012 : fichier non trouvé
-Tue Jan  3 18:17:20 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37275
-Tue Jan  3 18:17:20 2012 : requete "GET /po" de la part du client a la socket 4
-Tue Jan  3 18:17:20 2012 : fichier non trouvé
-Tue Jan  3 18:17:20 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37276
-Tue Jan  3 18:17:20 2012 : requete "GET /po" de la part du client a la socket 5
-Tue Jan  3 18:17:20 2012 : fichier non trouvé
-Tue Jan  3 18:17:20 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37277
-Tue Jan  3 18:17:20 2012 : requete "GET /po" de la part du client a la socket 4
-Tue Jan  3 18:17:20 2012 : fichier non trouvé
-Tue Jan  3 18:17:21 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37278
-Tue Jan  3 18:17:21 2012 : requete "GET /" de la part du client a la socket 4
-Tue Jan  3 18:17:22 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37279
-Tue Jan  3 18:17:22 2012 : requete "GET /" de la part du client a la socket 5
-Tue Jan  3 18:17:22 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37280
-Tue Jan  3 18:17:22 2012 : requete "GET /" de la part du client a la socket 4
-Tue Jan  3 18:17:22 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37281
-Tue Jan  3 18:17:22 2012 : requete "GET /" de la part du client a la socket 5
-Tue Jan  3 18:17:23 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37282
-Tue Jan  3 18:17:23 2012 : requete "GET /position.html" de la part du client a la socket 4
-Tue Jan  3 18:17:23 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37283
-Tue Jan  3 18:17:23 2012 : requete "GET /position.html" de la part du client a la socket 5
-Tue Jan  3 18:17:23 2012 : connexion d'un client sur le socket 4 depuis l'adresse 127.0.0.1 avec le port 37284
-Tue Jan  3 18:17:23 2012 : requete "GET /position.html" de la part du client a la socket 4
-Tue Jan  3 18:17:24 2012 : connexion d'un client sur le socket 5 depuis l'adresse 127.0.0.1 avec le port 37285
-Tue Jan  3 18:17:24 2012 : requete "GET /position.html" de la part du client a la socket 5
-Tue Jan  3 18:19:55 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6666
-Tue Jan  3 18:20:04 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54931
-Tue Jan  3 18:20:04 2012 : requete "GET /" de la part du client sur la socket 4
-Tue Jan  3 18:20:04 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54932
-Tue Jan  3 18:20:04 2012 : requete "GET /favicon.ico" de la part du client sur la socket 5
-Tue Jan  3 18:20:04 2012 : fichier non trouvé
-Tue Jan  3 18:20:04 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54933
-Tue Jan  3 18:20:04 2012 : requete "GET /" de la part du client sur la socket 4
-Tue Jan  3 18:20:04 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54934
-Tue Jan  3 18:20:04 2012 : requete "GET /favicon.ico" de la part du client sur la socket 5
-Tue Jan  3 18:20:04 2012 : fichier non trouvé
-Tue Jan  3 18:20:05 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54935
-Tue Jan  3 18:20:05 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:20:05 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54936
-Tue Jan  3 18:20:05 2012 : requete "GET /favicon.ico" de la part du client sur la socket 5
-Tue Jan  3 18:20:05 2012 : fichier non trouvé
-Tue Jan  3 18:20:06 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54937
-Tue Jan  3 18:20:06 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:20:06 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54938
-Tue Jan  3 18:20:06 2012 : requete "GET /favicon.ico" de la part du client sur la socket 5
-Tue Jan  3 18:20:06 2012 : fichier non trouvé
-Tue Jan  3 18:20:07 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54939
-Tue Jan  3 18:20:07 2012 : requete "GET /favicon.ico" de la part du client sur la socket 4
-Tue Jan  3 18:20:07 2012 : fichier non trouvé
-Tue Jan  3 18:20:07 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54940
-Tue Jan  3 18:20:07 2012 : requete "GET /favicon.ico" de la part du client sur la socket 5
-Tue Jan  3 18:20:07 2012 : fichier non trouvé
-Tue Jan  3 18:20:07 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54941
-Tue Jan  3 18:20:07 2012 : requete "GET /favicon.ico" de la part du client sur la socket 4
-Tue Jan  3 18:20:07 2012 : fichier non trouvé
-Tue Jan  3 18:20:07 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54942
-Tue Jan  3 18:20:07 2012 : requete "GET /favicon.ico" de la part du client sur la socket 5
-Tue Jan  3 18:20:07 2012 : fichier non trouvé
-Tue Jan  3 18:20:07 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54943
-Tue Jan  3 18:20:07 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:20:07 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54944
-Tue Jan  3 18:20:07 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:20:07 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54945
-Tue Jan  3 18:20:07 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:20:08 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54946
-Tue Jan  3 18:20:08 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:20:08 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54947
-Tue Jan  3 18:20:08 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:20:08 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54948
-Tue Jan  3 18:20:08 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:20:08 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54951
-Tue Jan  3 18:20:08 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:20:08 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54952
-Tue Jan  3 18:20:08 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:20:08 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54953
-Tue Jan  3 18:20:08 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:37:56 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55396
-Tue Jan  3 18:37:56 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:37:57 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55397
-Tue Jan  3 18:37:57 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:37:57 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55398
-Tue Jan  3 18:37:57 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:37:58 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55399
-Tue Jan  3 18:37:58 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:37:58 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55400
-Tue Jan  3 18:37:58 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:37:58 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55401
-Tue Jan  3 18:37:58 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:37:58 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55402
-Tue Jan  3 18:37:58 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:37:58 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55403
-Tue Jan  3 18:37:58 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:37:59 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55404
-Tue Jan  3 18:37:59 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:37:59 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55405
-Tue Jan  3 18:37:59 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:37:59 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55406
-Tue Jan  3 18:37:59 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:37:59 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55407
-Tue Jan  3 18:37:59 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:38:00 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55408
-Tue Jan  3 18:38:00 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:38:00 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55409
-Tue Jan  3 18:38:00 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:38:00 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55410
-Tue Jan  3 18:38:00 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:38:00 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55411
-Tue Jan  3 18:38:00 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:38:00 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55412
-Tue Jan  3 18:38:00 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:40:51 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55455
-Tue Jan  3 18:40:51 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:40:52 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55456
-Tue Jan  3 18:40:52 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:40:52 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55457
-Tue Jan  3 18:40:52 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:40:52 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55458
-Tue Jan  3 18:40:52 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:40:52 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55459
-Tue Jan  3 18:40:52 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:40:53 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55460
-Tue Jan  3 18:40:53 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:40:53 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55461
-Tue Jan  3 18:40:53 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:40:53 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55462
-Tue Jan  3 18:40:53 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:40:53 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55463
-Tue Jan  3 18:40:53 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:40:53 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55464
-Tue Jan  3 18:40:53 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:40:54 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55465
-Tue Jan  3 18:40:54 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:40:54 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55466
-Tue Jan  3 18:40:54 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:40:54 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55467
-Tue Jan  3 18:40:54 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:40:54 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55468
-Tue Jan  3 18:40:54 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:40:54 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55469
-Tue Jan  3 18:40:54 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:40:54 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55470
-Tue Jan  3 18:40:54 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:40:55 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55471
-Tue Jan  3 18:40:55 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:40:55 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55472
-Tue Jan  3 18:40:55 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:40:55 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55473
-Tue Jan  3 18:40:55 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:40:55 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55474
-Tue Jan  3 18:40:55 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:40:55 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55475
-Tue Jan  3 18:40:55 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:40:58 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55476
-Tue Jan  3 18:40:58 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:40:59 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55477
-Tue Jan  3 18:40:59 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:40:59 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55478
-Tue Jan  3 18:40:59 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:40:59 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55479
-Tue Jan  3 18:40:59 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:40:59 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55480
-Tue Jan  3 18:40:59 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:40:59 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55481
-Tue Jan  3 18:40:59 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:40:59 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55482
-Tue Jan  3 18:40:59 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:41:00 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55483
-Tue Jan  3 18:41:00 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:41:00 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55484
-Tue Jan  3 18:41:00 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:41:00 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55485
-Tue Jan  3 18:41:00 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:41:01 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55486
-Tue Jan  3 18:41:01 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:41:01 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55487
-Tue Jan  3 18:41:01 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:41:01 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55488
-Tue Jan  3 18:41:01 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:41:01 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55489
-Tue Jan  3 18:41:01 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:41:01 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55490
-Tue Jan  3 18:41:01 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:41:01 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55491
-Tue Jan  3 18:41:01 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:41:02 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55492
-Tue Jan  3 18:41:02 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:41:02 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55493
-Tue Jan  3 18:41:02 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:41:02 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55494
-Tue Jan  3 18:41:02 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:41:02 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55495
-Tue Jan  3 18:41:02 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:41:02 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55496
-Tue Jan  3 18:41:02 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:41:02 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55497
-Tue Jan  3 18:41:02 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:41:03 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55498
-Tue Jan  3 18:41:03 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:41:03 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55499
-Tue Jan  3 18:41:03 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:41:03 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55500
-Tue Jan  3 18:41:03 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:41:03 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55501
-Tue Jan  3 18:41:03 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:41:03 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55502
-Tue Jan  3 18:41:03 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:41:04 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55503
-Tue Jan  3 18:41:04 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:41:04 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55504
-Tue Jan  3 18:41:04 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:41:04 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55505
-Tue Jan  3 18:41:04 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:41:04 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55506
-Tue Jan  3 18:41:04 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:41:05 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55507
-Tue Jan  3 18:41:05 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:41:05 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55508
-Tue Jan  3 18:41:05 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:41:05 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55509
-Tue Jan  3 18:41:05 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:41:06 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55510
-Tue Jan  3 18:41:06 2012 : requete "GET /position.html" de la part du client sur la socket 5
-Tue Jan  3 18:41:06 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55511
-Tue Jan  3 18:41:06 2012 : requete "GET /position.html" de la part du client sur la socket 4
-Tue Jan  3 18:41:06 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55512
-Tue Jan  3 18:41:06 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:02:11 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6666
+Tue Jan  3 20:02:14 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6666
+Tue Jan  3 20:02:23 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6666
+Tue Jan  3 20:09:08 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6666
+Tue Jan  3 20:09:51 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6666
+Tue Jan  3 20:10:48 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6666
+Tue Jan  3 20:12:39 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6666
+Tue Jan  3 20:12:44 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54580
+Tue Jan  3 20:12:44 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:45 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54581
+Tue Jan  3 20:12:45 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:45 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54582
+Tue Jan  3 20:12:45 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:45 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54583
+Tue Jan  3 20:12:45 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:45 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54584
+Tue Jan  3 20:12:45 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:45 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54585
+Tue Jan  3 20:12:45 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:45 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54586
+Tue Jan  3 20:12:45 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:46 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54587
+Tue Jan  3 20:12:46 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:46 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54588
+Tue Jan  3 20:12:46 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:46 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54589
+Tue Jan  3 20:12:46 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:46 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54590
+Tue Jan  3 20:12:46 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:46 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54591
+Tue Jan  3 20:12:46 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:47 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54592
+Tue Jan  3 20:12:47 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:47 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54593
+Tue Jan  3 20:12:47 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:47 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54594
+Tue Jan  3 20:12:47 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:47 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54595
+Tue Jan  3 20:12:47 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:47 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54596
+Tue Jan  3 20:12:47 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:47 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54597
+Tue Jan  3 20:12:47 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:47 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54598
+Tue Jan  3 20:12:47 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:47 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54599
+Tue Jan  3 20:12:47 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:48 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54600
+Tue Jan  3 20:12:48 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:48 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54601
+Tue Jan  3 20:12:48 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:48 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54602
+Tue Jan  3 20:12:48 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:48 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54603
+Tue Jan  3 20:12:48 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:48 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54604
+Tue Jan  3 20:12:48 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:48 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54605
+Tue Jan  3 20:12:48 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:48 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54606
+Tue Jan  3 20:12:48 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:48 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54607
+Tue Jan  3 20:12:48 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:48 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54608
+Tue Jan  3 20:12:48 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:48 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54609
+Tue Jan  3 20:12:48 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:48 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54610
+Tue Jan  3 20:12:48 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:48 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54611
+Tue Jan  3 20:12:48 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:48 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54612
+Tue Jan  3 20:12:48 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:48 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54613
+Tue Jan  3 20:12:48 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:48 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54614
+Tue Jan  3 20:12:48 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:48 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54615
+Tue Jan  3 20:12:48 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:48 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54616
+Tue Jan  3 20:12:48 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:48 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54617
+Tue Jan  3 20:12:48 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:48 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54618
+Tue Jan  3 20:12:48 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:48 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54619
+Tue Jan  3 20:12:48 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54620
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54621
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54622
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54623
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54624
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54625
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54626
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54627
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54628
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54629
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54630
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54631
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54632
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54633
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54634
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54635
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54636
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54637
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54638
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54639
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54640
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54641
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54642
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:49 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54643
+Tue Jan  3 20:12:49 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54644
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54645
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54646
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54647
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54648
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54649
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54650
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54651
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54652
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54653
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54654
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54655
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54656
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54657
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54658
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54659
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54660
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54661
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54662
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54663
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54664
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:50 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54665
+Tue Jan  3 20:12:50 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54666
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54667
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54668
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54669
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54670
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54671
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54672
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54673
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54674
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54675
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54676
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54677
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54678
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54679
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54680
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54681
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54682
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54683
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54684
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54685
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54686
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54687
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54688
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54689
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:51 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54690
+Tue Jan  3 20:12:51 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54691
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54692
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54693
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54694
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54695
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54696
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54697
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54698
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54699
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54700
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54701
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54702
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54703
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54704
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54705
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54706
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54707
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54708
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54709
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54710
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54711
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:52 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54712
+Tue Jan  3 20:12:52 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:53 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54713
+Tue Jan  3 20:12:53 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:53 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54714
+Tue Jan  3 20:12:53 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:53 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54715
+Tue Jan  3 20:12:53 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:53 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54716
+Tue Jan  3 20:12:53 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:53 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54717
+Tue Jan  3 20:12:53 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:53 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54718
+Tue Jan  3 20:12:53 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:53 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54719
+Tue Jan  3 20:12:53 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:53 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54720
+Tue Jan  3 20:12:53 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:53 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54721
+Tue Jan  3 20:12:53 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:53 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54722
+Tue Jan  3 20:12:53 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:53 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54723
+Tue Jan  3 20:12:53 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:53 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54724
+Tue Jan  3 20:12:53 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:53 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54725
+Tue Jan  3 20:12:53 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:53 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54726
+Tue Jan  3 20:12:53 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:53 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54727
+Tue Jan  3 20:12:53 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:53 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54728
+Tue Jan  3 20:12:53 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:53 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54729
+Tue Jan  3 20:12:53 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:53 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54730
+Tue Jan  3 20:12:53 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:53 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54731
+Tue Jan  3 20:12:53 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:53 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54732
+Tue Jan  3 20:12:53 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54733
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54734
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54735
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54736
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54737
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54738
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54739
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54740
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54741
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54742
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54743
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54744
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54745
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54746
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54747
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54748
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54749
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54750
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54752
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54753
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54754
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54755
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54756
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:54 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54757
+Tue Jan  3 20:12:54 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54758
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54759
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54760
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54761
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54762
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54763
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54764
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54765
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54766
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54767
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54768
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54769
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54770
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54771
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54772
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54773
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54774
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54775
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54776
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54777
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54778
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54779
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:55 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54780
+Tue Jan  3 20:12:55 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54781
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54782
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54783
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54784
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54785
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54786
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54787
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54788
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54789
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54790
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54791
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54792
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54793
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54794
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54795
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54796
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54797
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54798
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54799
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54800
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54801
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54802
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54803
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:56 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54804
+Tue Jan  3 20:12:56 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:57 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54805
+Tue Jan  3 20:12:57 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:57 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54806
+Tue Jan  3 20:12:57 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:57 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54807
+Tue Jan  3 20:12:57 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:57 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54808
+Tue Jan  3 20:12:57 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:57 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54809
+Tue Jan  3 20:12:57 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:57 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54810
+Tue Jan  3 20:12:57 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:57 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54811
+Tue Jan  3 20:12:57 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:57 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54812
+Tue Jan  3 20:12:57 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:57 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54813
+Tue Jan  3 20:12:57 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:57 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54814
+Tue Jan  3 20:12:57 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:57 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54815
+Tue Jan  3 20:12:57 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:57 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54816
+Tue Jan  3 20:12:57 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:57 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54817
+Tue Jan  3 20:12:57 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:57 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54818
+Tue Jan  3 20:12:57 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54819
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54820
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54821
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54822
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54823
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54824
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54825
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54826
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54827
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54828
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54829
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54830
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54831
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54832
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54833
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54834
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54835
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54836
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54837
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54838
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54839
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54840
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54841
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:58 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54842
+Tue Jan  3 20:12:58 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54843
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54844
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54845
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54846
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54847
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54848
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54849
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54850
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54851
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54852
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54853
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54854
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54855
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54856
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54857
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54858
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54859
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54860
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54861
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54862
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54863
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54864
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54865
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:12:59 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54866
+Tue Jan  3 20:12:59 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54867
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54868
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54869
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54870
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54871
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54872
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54873
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54874
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54875
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54876
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54877
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54878
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54879
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54880
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54881
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54882
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54883
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54884
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54885
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54886
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54887
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54888
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54889
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:00 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54890
+Tue Jan  3 20:13:00 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:01 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54891
+Tue Jan  3 20:13:01 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:01 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54892
+Tue Jan  3 20:13:01 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:01 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54893
+Tue Jan  3 20:13:01 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:01 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54894
+Tue Jan  3 20:13:01 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:01 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54895
+Tue Jan  3 20:13:01 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:01 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54896
+Tue Jan  3 20:13:01 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:01 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54897
+Tue Jan  3 20:13:01 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:01 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54898
+Tue Jan  3 20:13:01 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:01 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54899
+Tue Jan  3 20:13:01 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:01 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54900
+Tue Jan  3 20:13:01 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:01 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54901
+Tue Jan  3 20:13:01 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:01 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54902
+Tue Jan  3 20:13:01 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:01 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54903
+Tue Jan  3 20:13:01 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:01 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54904
+Tue Jan  3 20:13:01 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:01 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54905
+Tue Jan  3 20:13:01 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:01 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54906
+Tue Jan  3 20:13:01 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:01 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54907
+Tue Jan  3 20:13:01 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:01 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54908
+Tue Jan  3 20:13:01 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:01 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54909
+Tue Jan  3 20:13:01 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:01 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54910
+Tue Jan  3 20:13:01 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:02 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54911
+Tue Jan  3 20:13:02 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:02 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54912
+Tue Jan  3 20:13:02 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:02 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54913
+Tue Jan  3 20:13:02 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:02 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54914
+Tue Jan  3 20:13:02 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:02 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 54915
+Tue Jan  3 20:13:02 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:13:02 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54916
+Tue Jan  3 20:13:02 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:13:08 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54917
+Tue Jan  3 20:13:08 2012 : arret du serveur
+Tue Jan  3 20:18:19 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6666
+Tue Jan  3 20:18:23 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54937
+Tue Jan  3 20:18:23 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:18:23 2012 : arret du serveur
+Tue Jan  3 20:18:39 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6666
+Tue Jan  3 20:18:59 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54939
+Tue Jan  3 20:18:59 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:19:00 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54940
+Tue Jan  3 20:19:00 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:19:01 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54941
+Tue Jan  3 20:19:01 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:19:02 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54942
+Tue Jan  3 20:19:02 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:19:02 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54943
+Tue Jan  3 20:19:02 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:19:30 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54944
+Tue Jan  3 20:19:30 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:19:32 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54945
+Tue Jan  3 20:19:32 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:19:32 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54946
+Tue Jan  3 20:19:32 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:19:32 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54947
+Tue Jan  3 20:19:32 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:19:33 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54948
+Tue Jan  3 20:19:33 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:20:49 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6666
+Tue Jan  3 20:20:53 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 54952
+Tue Jan  3 20:20:53 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:20:53 2012 : arret du serveur
+Tue Jan  3 20:21:14 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6666
+Tue Jan  3 20:21:31 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54954
+Tue Jan  3 20:21:31 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:32 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54955
+Tue Jan  3 20:21:32 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:32 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54956
+Tue Jan  3 20:21:32 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:32 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54957
+Tue Jan  3 20:21:32 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:33 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54958
+Tue Jan  3 20:21:33 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:33 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54959
+Tue Jan  3 20:21:33 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:33 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54960
+Tue Jan  3 20:21:33 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:33 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54961
+Tue Jan  3 20:21:33 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:34 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54962
+Tue Jan  3 20:21:34 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:35 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54963
+Tue Jan  3 20:21:35 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:35 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54964
+Tue Jan  3 20:21:35 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:35 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54965
+Tue Jan  3 20:21:35 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:35 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54966
+Tue Jan  3 20:21:35 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:35 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54967
+Tue Jan  3 20:21:35 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:35 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54968
+Tue Jan  3 20:21:35 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:35 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54969
+Tue Jan  3 20:21:35 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:35 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54970
+Tue Jan  3 20:21:35 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:35 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54971
+Tue Jan  3 20:21:35 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:35 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54972
+Tue Jan  3 20:21:35 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:35 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54973
+Tue Jan  3 20:21:35 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:35 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54974
+Tue Jan  3 20:21:35 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:35 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54975
+Tue Jan  3 20:21:35 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:35 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54976
+Tue Jan  3 20:21:35 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:35 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54977
+Tue Jan  3 20:21:35 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:35 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54978
+Tue Jan  3 20:21:35 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:35 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54979
+Tue Jan  3 20:21:35 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:35 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54980
+Tue Jan  3 20:21:35 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:36 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54981
+Tue Jan  3 20:21:36 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:36 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54982
+Tue Jan  3 20:21:36 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:36 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54983
+Tue Jan  3 20:21:36 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:36 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54984
+Tue Jan  3 20:21:36 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:36 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54985
+Tue Jan  3 20:21:36 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:36 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54986
+Tue Jan  3 20:21:36 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:36 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54987
+Tue Jan  3 20:21:36 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:36 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54988
+Tue Jan  3 20:21:36 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:36 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54989
+Tue Jan  3 20:21:36 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:36 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54990
+Tue Jan  3 20:21:36 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:36 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54991
+Tue Jan  3 20:21:36 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:36 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54992
+Tue Jan  3 20:21:36 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:36 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54993
+Tue Jan  3 20:21:36 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:36 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54994
+Tue Jan  3 20:21:36 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:36 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54995
+Tue Jan  3 20:21:36 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:36 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54996
+Tue Jan  3 20:21:36 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:36 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54997
+Tue Jan  3 20:21:36 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:47 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54998
+Tue Jan  3 20:21:47 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:49 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 54999
+Tue Jan  3 20:21:49 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:50 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 55000
+Tue Jan  3 20:21:50 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:50 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 55001
+Tue Jan  3 20:21:50 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:50 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 55002
+Tue Jan  3 20:21:50 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:21:50 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 55003
+Tue Jan  3 20:21:50 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:23:00 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 55005
+Tue Jan  3 20:23:00 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:23:01 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 55006
+Tue Jan  3 20:23:01 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:23:01 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 55007
+Tue Jan  3 20:23:01 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:23:01 2012 : connexion d'un client sur la socket 6 depuis l'adresse 127.0.0.1 avec le port 55008
+Tue Jan  3 20:23:01 2012 : requete "GET /position.html" de la part du client sur la socket 6
+Tue Jan  3 20:35:38 2012 : serveur lancé avec l'adresse IP 127.0.0.1, en ecoute sur le port 6666
+Tue Jan  3 20:35:44 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55036
+Tue Jan  3 20:35:44 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:35:44 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55037
+Tue Jan  3 20:35:44 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:35:45 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55038
+Tue Jan  3 20:35:45 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:35:45 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55039
+Tue Jan  3 20:35:45 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:35:45 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55040
+Tue Jan  3 20:35:45 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:35:45 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55041
+Tue Jan  3 20:35:45 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:35:45 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55042
+Tue Jan  3 20:35:45 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:35:45 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55043
+Tue Jan  3 20:35:45 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:35:45 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55044
+Tue Jan  3 20:35:45 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:35:46 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55045
+Tue Jan  3 20:35:46 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:35:46 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55046
+Tue Jan  3 20:35:46 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:35:46 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55047
+Tue Jan  3 20:35:46 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:35:46 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55048
+Tue Jan  3 20:35:46 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:35:46 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55049
+Tue Jan  3 20:35:46 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:35:47 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55050
+Tue Jan  3 20:35:47 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:35:47 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55051
+Tue Jan  3 20:35:47 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:35:47 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55052
+Tue Jan  3 20:35:47 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:35:47 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55053
+Tue Jan  3 20:35:47 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:36:00 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55055
+Tue Jan  3 20:36:00 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:36:01 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55058
+Tue Jan  3 20:36:01 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:36:01 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55072
+Tue Jan  3 20:36:01 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:36:05 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55074
+Tue Jan  3 20:36:05 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:36:11 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55075
+Tue Jan  3 20:36:11 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:36:12 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55076
+Tue Jan  3 20:36:12 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:36:15 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55077
+Tue Jan  3 20:36:15 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:36:23 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55081
+Tue Jan  3 20:36:23 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:44:22 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55131
+Tue Jan  3 20:44:22 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:44:24 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55133
+Tue Jan  3 20:44:24 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:44:25 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55135
+Tue Jan  3 20:44:25 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:44:25 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55137
+Tue Jan  3 20:44:25 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:44:52 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55140
+Tue Jan  3 20:44:52 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:44 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55161
+Tue Jan  3 20:54:44 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:45 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55163
+Tue Jan  3 20:54:45 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:54:46 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55164
+Tue Jan  3 20:54:46 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:46 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55165
+Tue Jan  3 20:54:46 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:46 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55166
+Tue Jan  3 20:54:46 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:54:47 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55167
+Tue Jan  3 20:54:47 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:48 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55168
+Tue Jan  3 20:54:48 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:54:48 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55169
+Tue Jan  3 20:54:48 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:48 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55170
+Tue Jan  3 20:54:48 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:54:48 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55171
+Tue Jan  3 20:54:48 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:49 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55172
+Tue Jan  3 20:54:49 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:54:49 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55173
+Tue Jan  3 20:54:49 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:49 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55174
+Tue Jan  3 20:54:49 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:49 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55175
+Tue Jan  3 20:54:49 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:54:50 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55176
+Tue Jan  3 20:54:50 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:50 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55177
+Tue Jan  3 20:54:50 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:54:50 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55178
+Tue Jan  3 20:54:50 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:51 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55179
+Tue Jan  3 20:54:51 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:54:51 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55180
+Tue Jan  3 20:54:51 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:51 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55181
+Tue Jan  3 20:54:51 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:54:52 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55182
+Tue Jan  3 20:54:52 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:52 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55183
+Tue Jan  3 20:54:52 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:54:52 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55184
+Tue Jan  3 20:54:52 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:52 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55186
+Tue Jan  3 20:54:52 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:54:52 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55187
+Tue Jan  3 20:54:52 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:52 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55188
+Tue Jan  3 20:54:52 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:54:52 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55189
+Tue Jan  3 20:54:52 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:52 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55190
+Tue Jan  3 20:54:52 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:54:52 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55191
+Tue Jan  3 20:54:52 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:52 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55192
+Tue Jan  3 20:54:52 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:54:52 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55193
+Tue Jan  3 20:54:52 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:53 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55194
+Tue Jan  3 20:54:53 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:54:54 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55196
+Tue Jan  3 20:54:54 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:54 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55197
+Tue Jan  3 20:54:54 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:54:55 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55198
+Tue Jan  3 20:54:55 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:55 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55199
+Tue Jan  3 20:54:55 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:56 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55200
+Tue Jan  3 20:54:56 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:54:56 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55201
+Tue Jan  3 20:54:56 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:57 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55202
+Tue Jan  3 20:54:57 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:54:57 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55203
+Tue Jan  3 20:54:57 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:58 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55204
+Tue Jan  3 20:54:58 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:54:58 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55205
+Tue Jan  3 20:54:58 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:58 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55206
+Tue Jan  3 20:54:58 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:54:59 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55207
+Tue Jan  3 20:54:59 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:55:00 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55209
+Tue Jan  3 20:55:00 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:56:29 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55211
+Tue Jan  3 20:56:29 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:56:30 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55212
+Tue Jan  3 20:56:30 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:56:30 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55213
+Tue Jan  3 20:56:30 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:56:31 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55214
+Tue Jan  3 20:56:31 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:56:31 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55215
+Tue Jan  3 20:56:31 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:56:31 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55216
+Tue Jan  3 20:56:31 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:56:33 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55217
+Tue Jan  3 20:56:33 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:56:33 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55218
+Tue Jan  3 20:56:33 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:56:34 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55219
+Tue Jan  3 20:56:34 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:56:34 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55220
+Tue Jan  3 20:56:34 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:56:35 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55221
+Tue Jan  3 20:56:35 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:56:37 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55222
+Tue Jan  3 20:56:37 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:56:41 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55223
+Tue Jan  3 20:56:41 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:56:43 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55224
+Tue Jan  3 20:56:43 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:56:43 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55225
+Tue Jan  3 20:56:43 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:56:43 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55226
+Tue Jan  3 20:56:43 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:56:44 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55227
+Tue Jan  3 20:56:44 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:56:44 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55228
+Tue Jan  3 20:56:44 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:56:45 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55229
+Tue Jan  3 20:56:45 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:56:45 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55230
+Tue Jan  3 20:56:45 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:56:45 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55231
+Tue Jan  3 20:56:45 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:56:46 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55232
+Tue Jan  3 20:56:46 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:56:46 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55233
+Tue Jan  3 20:56:46 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:56:46 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55234
+Tue Jan  3 20:56:46 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:56:46 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55235
+Tue Jan  3 20:56:46 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:56:46 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55236
+Tue Jan  3 20:56:46 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:56:46 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55237
+Tue Jan  3 20:56:46 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:56:46 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55238
+Tue Jan  3 20:56:46 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:56:47 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55239
+Tue Jan  3 20:56:47 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:56:47 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55241
+Tue Jan  3 20:56:47 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:57:02 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55242
+Tue Jan  3 20:57:02 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:57:03 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55243
+Tue Jan  3 20:57:03 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:57:04 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55244
+Tue Jan  3 20:57:04 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:57:05 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55245
+Tue Jan  3 20:57:05 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:57:06 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55246
+Tue Jan  3 20:57:06 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:57:07 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55247
+Tue Jan  3 20:57:07 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:57:08 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55248
+Tue Jan  3 20:57:08 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:57:16 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55249
+Tue Jan  3 20:57:16 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:57:20 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55250
+Tue Jan  3 20:57:20 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:57:23 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55251
+Tue Jan  3 20:57:23 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:57:27 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55252
+Tue Jan  3 20:57:27 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:57:29 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55253
+Tue Jan  3 20:57:29 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:57:31 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55254
+Tue Jan  3 20:57:31 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:57:31 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55255
+Tue Jan  3 20:57:31 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:57:32 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55256
+Tue Jan  3 20:57:32 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:57:35 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55257
+Tue Jan  3 20:57:35 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:57:41 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55258
+Tue Jan  3 20:57:41 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:57:42 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55259
+Tue Jan  3 20:57:42 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:57:43 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55260
+Tue Jan  3 20:57:43 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:57:43 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55261
+Tue Jan  3 20:57:43 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:58:28 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55272
+Tue Jan  3 20:58:28 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:58:29 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55276
+Tue Jan  3 20:58:29 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:58:30 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55277
+Tue Jan  3 20:58:30 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 20:58:31 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55278
+Tue Jan  3 20:58:31 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:58:35 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55284
+Tue Jan  3 20:58:35 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 20:58:37 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55285
+Tue Jan  3 20:58:37 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 21:00:07 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55298
+Tue Jan  3 21:00:07 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 21:00:08 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55299
+Tue Jan  3 21:00:08 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 21:00:09 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55300
+Tue Jan  3 21:00:09 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 21:00:10 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55301
+Tue Jan  3 21:00:10 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 21:00:11 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55302
+Tue Jan  3 21:00:11 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 21:00:11 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55303
+Tue Jan  3 21:00:11 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 21:00:14 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55304
+Tue Jan  3 21:00:14 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 21:00:14 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55305
+Tue Jan  3 21:00:14 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 21:03:57 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55317
+Tue Jan  3 21:03:57 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 21:03:58 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55319
+Tue Jan  3 21:03:58 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 21:03:59 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55320
+Tue Jan  3 21:03:59 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 21:03:59 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55321
+Tue Jan  3 21:03:59 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 21:04:02 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55322
+Tue Jan  3 21:04:02 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 21:04:03 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55323
+Tue Jan  3 21:04:03 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 21:04:07 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55325
+Tue Jan  3 21:04:07 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 21:04:42 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55326
+Tue Jan  3 21:04:42 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 21:04:44 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55327
+Tue Jan  3 21:04:44 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 21:04:45 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55328
+Tue Jan  3 21:04:45 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 21:04:47 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55329
+Tue Jan  3 21:04:47 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 21:04:47 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55330
+Tue Jan  3 21:04:47 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 21:04:48 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55331
+Tue Jan  3 21:04:48 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 21:04:51 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55332
+Tue Jan  3 21:04:51 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 21:04:52 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55333
+Tue Jan  3 21:04:52 2012 : requete "GET /position.html" de la part du client sur la socket 5
+Tue Jan  3 21:04:53 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55334
+Tue Jan  3 21:04:53 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 21:04:54 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55335
+Tue Jan  3 21:04:54 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 21:04:57 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55336
+Tue Jan  3 21:04:57 2012 : requete "GET /" de la part du client sur la socket 4
+Tue Jan  3 21:05:05 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55339
+Tue Jan  3 21:05:05 2012 : requete "GET /fdg" de la part du client sur la socket 4
+Tue Jan  3 21:05:05 2012 : fichier non trouvé
+Tue Jan  3 21:05:07 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55340
+Tue Jan  3 21:05:07 2012 : requete "GET /fdg" de la part du client sur la socket 4
+Tue Jan  3 21:05:07 2012 : fichier non trouvé
+Tue Jan  3 21:05:07 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55341
+Tue Jan  3 21:05:07 2012 : requete "GET /fdg" de la part du client sur la socket 5
+Tue Jan  3 21:05:07 2012 : fichier non trouvé
+Tue Jan  3 21:05:07 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55342
+Tue Jan  3 21:05:07 2012 : requete "GET /fdg" de la part du client sur la socket 4
+Tue Jan  3 21:05:07 2012 : fichier non trouvé
+Tue Jan  3 21:05:08 2012 : connexion d'un client sur la socket 5 depuis l'adresse 127.0.0.1 avec le port 55344
+Tue Jan  3 21:05:08 2012 : requete "GET /" de la part du client sur la socket 5
+Tue Jan  3 21:05:09 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55345
+Tue Jan  3 21:05:09 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 21:06:32 2012 : connexion d'un client sur la socket 4 depuis l'adresse 127.0.0.1 avec le port 55347
+Tue Jan  3 21:06:32 2012 : requete "GET /position.html" de la part du client sur la socket 4
+Tue Jan  3 21:06:32 2012 : arret du serveur
