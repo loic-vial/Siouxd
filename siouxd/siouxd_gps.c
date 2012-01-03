@@ -19,14 +19,20 @@ int main()
     /// --- generation d'un signe (1 ou -1)
     int signe = rand() % 2 == 0 ? -1 : 1;
 
-    /// --- application du signe sur le nombre (-90 - 90)
+    /// --- application du signe sur le nombre (-90 <-> 90)
     latitude *= signe;
 
 
     /// 2) calcul de longitude aleatoire
 
-    /// --- generation d'un nombre entre 0 et 180
-    int longitude = rand() % 180;
+    /// --- generation d'un nombre entre 0 et 90
+    int longitude = rand() % 90;
+
+    /// --- generation d'un signe (1 ou -1)
+    signe = rand() % 2 == 0 ? -1 : 1;
+
+    /// --- application du signe sur le nombre (-90 <-> 90)
+    longitude *= signe;
 
 
     /// 3) ecriture de la position GPS dans le fichier
