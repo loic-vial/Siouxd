@@ -1,43 +1,86 @@
 ********************************************************************************
 *                             SIOUXD                                           *
+*                 Serveur web pour téléphone mobile                            *
+*                                                                              *
+* Auteur : Vial Loïc                                                           *
 ********************************************************************************
 
-point faible :
- - lors de l'interruption du serveur (SIGTERM ou SIGINT), il faut attendre une derniere connexion pour que le serveur se ferme
+
+-------------------------------- Description -----------------------------------
+
+Siouxd est un serveur web pouvant traiter des requêtes HTTP/1.0 standard de la forme "GET <fichier>",
+où <fichier> représente le chemin absolu depuis la racine du serveur vers un fichier présent sur le serveur.
+Le serveur va répondre aux requêtes en envoyant au client le fichier demandé, dans le respect de la norme HTTP/1.0.
+
+Siouxd s'accompagne d'une gestion en parallèle d'un programme de GPS qui met régulièrement à jour les coordonnées du serveur,
+et qui les affiche dans un fichier "/position.html".
 
 
+-------------------------------- Compilation -----------------------------------
+
+- "make all" : va générer le serveur "siouxd", ainsi que deux programmes "siouxd_gps" et "siouxd_gps_google" pour la gestion des coordonnées GPS.
+- "make clean" : supprime les fichiers .o générés par gcc.
 
 
-1) lancement de l'application : 
-./siouxd
- coté client ca sera un client internet explorer de son choix. 
+-------------------------------- Demarrage -------------------------------------
 
-2) 
-Test de l'application siouxd: 
-il faut que le client et le serveur soit dasn le même réseau . Ainsi si vous développez sous linserv1, pour lancer l'explorer, vous utiliserez NXClient sous windows (dans programmes/reseau). C'est émulateur X sous windows vous permettra de lancer une fenetre X et ainsi de lancer un exporer internet. 
-
-la ligne de commande sera : 
-http://linserv1:4567   
-(si vous avez installé le service siouxd sous linserv1 et que le port d'écoute est 4567 (valeur décimale)
-
-2) visualisation des process de map  ou des processus siouxd :
-
-ps -x |grep map
-ps -x | grep siouxd  
-
-3) Visualisatioon des connexions TCP : 
-
-lsof | grep TCP 
-
-Liste toutes les connexions TCP ouvertes ainsi que leur état 
-On voit également s'afficher le numéro de port sur lequel le process est en écoute (ici c'est le port 4567)
-exemple d'affichage 
-server    9656        map    3u     IPv4              37644      0t0      TCP *:4567 (LISTEN)
+- "./siouxd" : lance le serveur web Siouxd
 
 
+-------------------------------- Configuration ---------------------------------
+
+Le serveur Siouxd est paramétrisable depuis son fichier de configuration "siouxd.conf".
+Le fichier de configuration doit respecter le squelette suivant :
+
+ip_address   ___.___.___.___
+port         ____
+web_root_dir _______________
+log_file     _______________
+gps_software _______________
+frequency    __
+
+avec :
+- ip_address   : l'adresse IP du serveur, généralement 127.0.0.1 en local, ou bien l'adresse LAN pour une utilisation externe.
+- port         : le port d'écoute du serveur, par défaut 6666.
+- web_root_dir : le repertoire racine du serveur, généralement là où se trouvent les fichiers "index.html" et "position.html", par défaut ".".
+- log_file     : le chemin vers le fichier de log du serveur, par défaut "./siouxd.log".
+- gps_software : le chemin vers le programme executable chargé de générer le fichier "position.html" qui contient les coordonnées GPS du serveur.
+- frequency    : la fréquence en secondes à laquelle on appelle le programme GPS, par défaut 3.
+
+Exemple de fichier de configuration (fichier par défaut) :
+ip_address   127.0.0.1
+port         6666
+web_root_dir .
+log_file     ./siouxd.log
+gps_software ./siouxd_gps_google
+frequency    3
+
+Attention : le fichier de configuration "siouxd.conf" doit être accessible dans le répertoire de lancement du programme.
 
 
+-------------------------------- Test ------------------------------------------
 
+- pour tester le serveur, utilisez un client web standard (firefox, IE, Chrome, etc.)
+et connectez vous sur "http://ip_address:port", avec l'adresse IP et le port décrits dans le fichier de configuration.
+
+
+--------------------------------- Notes ----------------------------------------
+
+A propos du serveur HTTP :
+- il traite la racine "/" comme si c'était le fichier "/index.html", comme un serveur web habituel.
+- il renvoie une erreur "404 Not Found" avec comme message "Not Found" dans le cas où il ne trouve pas un fichier demandé.
+- il renvoie une erreur "400 Bad Request" avec comme message "Bad Request" dans le cas où la requête client est mal formée.
+- il peut traiter plusieurs clients à la fois grace à l'utilisation de threads.
+
+A propos des programmes GPS fournis :
+- siouxd_gps genere une page HTML simple avec les deux coordonnées GPS (latitude et longitude).
+- siouxd_gps_google genere la même page HTML, avec en plus une carte Google montrant graphiquement le point sur la carte du monde.
+- les deux programmes generent aleatoirement des coordonnées GPS, de n'importe où sur le globe,
+- ce ne sont donc pas les vraies coordonnées GPS du serveur qui sont affichées.
+
+Point faible du serveur :
+- lors de l'arret du programme avec les signaux 2 (SIGINT) ou 15 (SIGTERM), le serveur attend une dernière requête client avant de se fermer.
+- si on veut arreter immédiatement le programme, on peut toujours envoyer un signal 9 (SIGKILL).
 
 
 

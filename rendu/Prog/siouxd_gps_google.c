@@ -5,11 +5,11 @@
 
 /**
  *****************************************************************************
- *                          siouxd_gps
+ *                          siouxd_gps_google
  *****************************************************************************
  * Ce programme genere aleatoirement une position GPS
  * et l'enregistre dans le fichier position.html
- * MODE D'AFFICHAGE : TEXTE SEULEMENT
+ * MODE D'AFFICHAGE : CARTE GOOGLE
  */
 int main()
 {
@@ -53,8 +53,11 @@ int main()
                     <h1>Latitude : <b>%f</b></h1>\
                     <h1>Longitude : <b>%f</b></h1>\
                 </p>\
+                <p>\
+                    <img border=\"0\" alt=\"\" src=\"http://maps.googleapis.com/maps/api/staticmap?size=640x480&zoom=4&markers=%f,%f&sensor=false\"/>\
+                </p>\
             </body>\
-</html>", latitude, longitude);
+</html>", latitude, longitude, latitude, longitude);
 
     FILE* fichier_html = fopen("position.html", "w");
 

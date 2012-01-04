@@ -1,10 +1,11 @@
-#include <sys/types.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <arpa/inet.h>
-#include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <unistd.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
 #include <pthread.h>
 #include <signal.h>
 
@@ -15,9 +16,9 @@ typedef struct sockaddr_in sockaddr_in;
 
 /**
  * variable globale servant de signal d'arret pour le serveur
- * le serveur doit s'arreter si stop == 1
+ * le serveur doit s'arreter si global_stop == 1
  */
-int stop = 0;
+int global_stop = 0;
 
 /**
  * fonction a appeler lors d'un signal SIGTERM ou SIGINT du systeme d'exploitation
@@ -27,12 +28,12 @@ void fermer(int param);
 
 /**
  *****************************************************************************
- *                                          siouxd
+ *                                siouxd
  *****************************************************************************
  * siouxd est un serveur web leger pour telephone mobile permettant
  * de retrouver la localisation GPS du telephone rapidement
  */
-int main(int argc, char** argv)
+int main()
 {
     /// --- declaration des variables
     int serv_sock = 0; ///< Socket serveur
@@ -50,13 +51,21 @@ int main(int argc, char** argv)
     /// --- parametrage du serveur avec le fichier de configuration
     ret = read_configFile("siouxd.conf", &config);
     if (ret == -1)
+    {
+        perror(NULL);
+        fprintf(stderr, "Erreur : Le fichier \"siouxd.conf\" est introuvable !\n");
         return 1;
+    }
     config_and_socket.config = &config;
 
     /// --- creation de la socket serveur (TCP/IP)
     serv_sock = socket(AF_INET, SOCK_STREAM, 0);
     if (serv_sock == -1)
+    {
+        perror(NULL);
+        fprintf(stderr, "Erreur lors de la création de la socket serveur !\n");
         return 2;
+    }
 
     /// --- parametrage de la socket
     memset(&serv_addr, 0, sizeof(serv_addr));
@@ -67,34 +76,41 @@ int main(int argc, char** argv)
     /// --- bind socket-adresse
     ret = bind(serv_sock, (const sockaddr*)&serv_addr, sizeof(serv_addr));
     if (ret == -1)
+    {
+        perror(NULL);
+        fprintf(stderr, "Erreur lors du bind entre la socket et l'adresse !\n");
+        fprintf(stderr, "Vous devriez choisir probablement un autre port dans la configuration serveur.\n");
         return 3;
+    }
 
     /// --- ecoute/etablit la connexion
     ret = listen(serv_sock, 5);
     if (ret == -1)
+    {
+        perror(NULL);
+        fprintf(stderr, "Erreur lors du listen !\n");
         return 4;
+    }
 
     /// --- ecrit dans le fichier de log que le serveur est lancé
     sprintf(buffer, "serveur lancé avec l'adresse IP %s, en ecoute sur le port %d", config.ip_address, config.port);
     write_log(&config, buffer);
 
     /// --- lance le programme de localisation GPS dans un thread separé
-    ret = pthread_create(&thread_gps, NULL, GPS_refresh, (void*)&config);
-    if (ret != 0)
-        return 5;
+    pthread_create(&thread_gps, NULL, GPS_refresh, (void*)&config);
 
     /// --- associe le signal SIGTERM et SIGINT (fermeture du programme) a la fonction "fermer"
     signal(SIGTERM, fermer);
     signal(SIGINT, fermer);
 
     /// --- traitement des clients
-    while (stop != 1)
+    while (global_stop != 1)
     {
         /// --- ouvre un socket client
         cli_sock = accept(serv_sock, (sockaddr*)&cli_addr, &taille_cli_addr);
         if (cli_sock == -1)
         {
-            write_log(&config, "erreur lors de l'ouverture de la socket client");
+            fprintf(stderr, "Erreur lors de l'ouverture d'une socket client");
             continue;
         }
 
@@ -123,6 +139,7 @@ int main(int argc, char** argv)
 
 void fermer(int param)
 {
-    stop = 1;
+    printf("Reception du signal d'arret %d : le serveur se fermera a la prochaine connexion d'un client.\n", param);
+    global_stop = 1;
 }
 

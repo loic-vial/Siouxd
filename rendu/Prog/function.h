@@ -1,17 +1,6 @@
 #ifndef FUNCTION_H
 #define FUNCTION_H
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-#include <string.h>
-#include <sys/time.h>
-#include <arpa/inet.h>
-#include <unistd.h>
-#include <signal.h>
-
 /**
  * Structure contenant les informations de configuration du serveur
  */
@@ -41,12 +30,12 @@ int read_configFile(const char* nom_fichier, config_list* config);
 void* GPS_refresh(void* config);
 
 /**
- * Structure servant de parametre a la fonction "traitement_client" definie en dessous (fonction threadé)
+ * Structure servant en parametre a la fonction "traitement_client" definie en dessous (fonction threadé)
  */
 struct param_traitement_client
 {
-    config_list* config;
-    int socket_client;
+    config_list* config; ///< fichier de configuration du serveur
+    int socket_client; ///< socket du client a traiter
 };
 typedef struct param_traitement_client param_traitement_client;
 
@@ -67,7 +56,7 @@ int get_HTTPRequest(const config_list* config, char* requete, char* reponse);
 
 /**
  * Ecrit dans le fichier de log
- * @param config : la configuration du serveur
+ * @param config : la configuration du serveur (pour trouver le fichier a ecrire)
  * @param chaine : la chaine a ecrire
  * @return 0 si succes, -1 sinon
  */

@@ -1,4 +1,12 @@
-#include <pthread.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
 #include "function.h"
 
 void* GPS_refresh(void* void_config)
@@ -9,9 +17,12 @@ void* GPS_refresh(void* void_config)
     /// --- lance le programme en boucle
     while (1)
     {
-        printf("Lancement du programme GPS : %s\n", config->gps_software);
+        printf("Lancement du programme GPS : %s.\n", config->gps_software);
         if (system(config->gps_software) != 0)
-	        fprintf(stderr, "Erreur lors de l'execution du programme GPS\n");
+        {
+            perror(NULL);
+	        fprintf(stderr, "Erreur lors de l'execution du programme GPS !\n");
+	    }
         sleep(config->frequency);
     }
 }
@@ -36,7 +47,6 @@ int read_configFile(const char* nom_fichier, config_list* config)
     /// --- fermeture du fichier
     fclose(fichier);
     return 0;
-
 }
 
 void* traitement_client(void* void_config_and_socket)
@@ -54,7 +64,8 @@ void* traitement_client(void* void_config_and_socket)
     ret = recv(cli_sock, requete, sizeof(requete), 0);
     if (ret == -1)
     {
-        write_log(config, "erreur lors de la reception d'une requete client");
+        perror(NULL);
+        fprintf(stderr, "Erreur lors de la reception d'une requete client !");
         close(cli_sock);
         return NULL;
     }
@@ -71,7 +82,10 @@ void* traitement_client(void* void_config_and_socket)
     /// --- repond au client
     ret = send(cli_sock, reponse, strlen(reponse), 0);
     if (ret == -1)
-        write_log(config, "erreur lors de l'envoi d'une reponse");
+    {
+        perror(NULL);
+        fprintf(stderr, "Erreur lors de l'envoi d'une reponse à un client !");
+    }
 
     /// --- fin de transmission
     close(cli_sock);
@@ -89,7 +103,7 @@ int get_HTTPRequest(const config_list* config, char* requete, char* reponse)
     int taille_fichier = 0; ///< la taille du fichier
 
     /// --- verifie la validite de la requete (GET <fichier>)
-    if (requete_cmd == 0 || strcmp(requete_cmd, "GET") != 0 || requete_fichier == 0)
+    if (requete_cmd == 0 || requete_fichier == 0 || strcmp(requete_cmd, "GET") != 0)
     {
         sprintf(reponse, "HTTP/1.0 400 Bad Request\r\n\
 Content-Type: text/html\r\n\
@@ -144,17 +158,17 @@ int write_log(const config_list* config, const char* chaine)
 {
     /// --- declare les variables
     FILE* fichier_log = NULL; ///< fichier de log
-    time_t timestamp = time(NULL); ///< timestamp courant
+    const time_t timestamp = time(NULL); ///< timestamp courant
     char* str_timestamp = ctime(&timestamp); ///< timestamp courant sous forme de string
     char message[512]  = {0}; ///< message a ecrire (avec la date + saut de ligne)
 
-    printf("Ecriture dans le fichier de log : %s\n", config->log_file);
+    printf("Ecriture dans le fichier de log : %s.\n", config->log_file);
 
     /// --- ouvre le fichier de log en mode "ajout"
     fichier_log = fopen(config->log_file, "a");
     if (fichier_log == NULL)
     {
-        fprintf(stderr, "Erreur lors de l'ouverture du fichier de log\n");
+        fprintf(stderr, "Erreur lors de l'ouverture du fichier de log.\n");
         return -1;
     }
 
