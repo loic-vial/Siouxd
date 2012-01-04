@@ -17,7 +17,7 @@ int main()
     /// 1) calcul de latitude aleatoire
 
     /// --- generation d'un nombre entre 0 et 80 (90 = pole)
-    int latitude = rand() % 80;
+    float latitude = rand() % 80 + (float)rand() / (float)RAND_MAX;
 
     /// --- generation d'un signe (1 ou -1)
     int signe = rand() % 2 == 0 ? -1 : 1;
@@ -29,7 +29,7 @@ int main()
     /// 2) calcul de longitude aleatoire
 
     /// --- generation d'un nombre entre 0 et 180
-    int longitude = rand() % 180;
+    float longitude = rand() % 180 + (float)rand() / (float)RAND_MAX;
 
     /// --- generation d'un signe (1 ou -1)
     signe = rand() % 2 == 0 ? -1 : 1;
@@ -49,8 +49,8 @@ int main()
             <body style=\"text-align: center;\">\
                 <br /><br />\
                 <p style=\"text-align: center;\">\
-                    <h1>Latitude : <b>%d</b></h1>\
-                    <h1>Longitude : <b>%d</b></h1>\
+                    <h1>Latitude : <b>%f</b></h1>\
+                    <h1>Longitude : <b>%f</b></h1>\
                 </p>\
                 <p>\
                     <img border=\"0\" alt=\"\" src=\"http://maps.googleapis.com/maps/api/staticmap?size=400x400&zoom=4&markers=%d,%d&sensor=false\"/>\
