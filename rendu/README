@@ -41,7 +41,7 @@ frequency    __
 
 avec :
 - ip_address   : l'adresse IP du serveur, généralement 127.0.0.1 en local, ou bien l'adresse LAN pour une utilisation externe.
-- port         : le port d'écoute du serveur, par défaut 6666.
+- port         : le port d'écoute du serveur, par défaut 2222.
 - web_root_dir : le repertoire racine du serveur, généralement là où se trouvent les fichiers "index.html" et "position.html", par défaut ".".
 - log_file     : le chemin vers le fichier de log du serveur, par défaut "./siouxd.log".
 - gps_software : le chemin vers le programme executable chargé de générer le fichier "position.html" qui contient les coordonnées GPS du serveur.
@@ -49,7 +49,7 @@ avec :
 
 Exemple de fichier de configuration (fichier par défaut) :
 ip_address   127.0.0.1
-port         6666
+port         2222
 web_root_dir .
 log_file     ./siouxd.log
 gps_software ./siouxd_gps_google
@@ -60,7 +60,7 @@ Attention : le fichier de configuration "siouxd.conf" doit être accessible dans
 
 -------------------------------- Test ------------------------------------------
 
-- pour tester le serveur, utilisez un client web standard (firefox, IE, Chrome, etc.)
+- pour tester le serveur, utilisez un client web standard (Firefox, Chrome, etc.)
 et connectez vous sur "http://ip_address:port", avec l'adresse IP et le port décrits dans le fichier de configuration.
 
 
@@ -77,6 +77,15 @@ A propos des programmes GPS fournis :
 - siouxd_gps_google genere la même page HTML, avec en plus une carte Google montrant graphiquement le point sur la carte du monde.
 - les deux programmes generent aleatoirement des coordonnées GPS, de n'importe où sur le globe,
 - ce ne sont donc pas les vraies coordonnées GPS du serveur qui sont affichées.
+
+A propos du code :
+- on utilise la librairie POSIX threads (pthreads) pour la gestion des threads, il faut donc compiler avec l'option -lpthread pour utiliser la librairie.
+- les commentaires explicatifs à propos des signatures des fonctions du fichier "function.c" sont dans l'entête "function.h".
+
+A propos de l'utilisation du programme :
+- le programme envoie un message en console à chaque fois qu'on écrit dans le fichier de log, et à chaque fois que le programme GPS est lancé.
+- si vous ne voulez pas être ennuyé par ces messages, lancez "./siouxd > /dev/null" au lieu de "./siouxd"
+- chaque demarrage du serveur, connexion d'un client, requete d'un client et fermeture du serveur est enregistré avec la date et l'heure dans le fichier de log.
 
 Point faible du serveur :
 - lors de l'arret du programme avec les signaux 2 (SIGINT) ou 15 (SIGTERM), le serveur attend une dernière requête client avant de se fermer.
