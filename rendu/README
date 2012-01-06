@@ -9,7 +9,7 @@
 -------------------------------- Description -----------------------------------
 
 Siouxd est un serveur web pouvant traiter des requêtes HTTP/1.0 standard de la forme "GET <fichier>",
-où <fichier> représente le chemin absolu depuis la racine du serveur vers un fichier présent sur le serveur.
+où <fichier> représente le chemin absolu depuis la racine du serveur vers un fichier HTML présent sur le serveur.
 Le serveur va répondre aux requêtes en envoyant au client le fichier demandé, dans le respect de la norme HTTP/1.0.
 
 Siouxd s'accompagne d'une gestion en parallèle d'un programme de GPS qui met régulièrement à jour les coordonnées du serveur,
@@ -18,11 +18,15 @@ et qui les affiche dans un fichier "/position.html".
 
 -------------------------------- Compilation -----------------------------------
 
-- "make all" : va générer le serveur "siouxd", ainsi que deux programmes "siouxd_gps" et "siouxd_gps_google" pour la gestion des coordonnées GPS.
+Placez vous dans le dossier "Prog", puis tapez :
+
+- "make all" : génère le serveur "siouxd", ainsi que deux programmes "siouxd_gps" et "siouxd_gps_google" pour la gestion des coordonnées GPS.
 - "make clean" : supprime les fichiers .o générés par gcc.
 
 
 -------------------------------- Demarrage -------------------------------------
+
+Placez vous dans le dossier "Prog", puis tapez :
 
 - "./siouxd" : lance le serveur web Siouxd
 
